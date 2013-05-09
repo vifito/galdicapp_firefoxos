@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>GalDic</title>
+    <meta name="description" content="Dicionario de Galego - Galician Dictionary">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    
+    <div class="galdicbox">
+      <h1><span>GalDic - Dicionario de Galego</span></h1>
+      <input type="text" id="galdic-box" title="Buscar termo no dicionario GalDic" placeholder="Buscar en GalDic..." />
+      <button class="btn" id="galdic-button"><span class="icon-search"></span> Buscar</button>
+    </div>
+    
+    
+    <script src="js/zepto.min.js"></script>
+    <script src="js/galdic.js"></script>
+    <script>//<![CDATA[
+    $('#galdic-box').galdic();
+    // ]]>
+    </script>
+    
+  </body>
+</html>

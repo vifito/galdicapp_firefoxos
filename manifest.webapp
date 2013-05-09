@@ -1,0 +1,37 @@
+{
+    "version": "0.1",
+    "name": "GalDic",
+    "description": "Dicionario de Galego",
+    "launch_path": "/",
+    "fullscreen": "true",
+    
+    "icons": {
+        "16":  "/img/icons/galdic-16.png",        
+        "48":  "/img/icons/galdic-48.png",
+        "128": "/img/icons/galdic-128.png"
+    },
+    
+    "developer": {
+        "name": "vifito",
+        "url": "http://vifito.eu"
+    },
+    "installs_allowed_from": ["*"],
+    "locales": {
+        "gl": {
+            "description": "Dicionario de Galego en liña",
+            "developer": {
+                "url": "http://vifito.eu"
+            }
+        },
+        "en": {
+            "description": "Online Galician dictionary",
+            "developer": {
+                "url": "http://vifito.eu"
+            }
+        }
+    },
+    "default_locale": "gl",
+    "permissions": {
+        
+    } 
+}

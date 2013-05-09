@@ -1,0 +1,30 @@
+
+div.galdic-results {
+    display: block;
+    padding: 0.8em;
+}
+
+button#galdic-button {
+    display: block;
+    width: 100%;
+    margin: 0.2em auto;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h1 span {
+    display: none;
+}
+
+input[type=text] {
+    display: block;
+    width:  100%;
+    margin: 0.2em auto;
+}
+
+h1 {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 60px;
+}
